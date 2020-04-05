@@ -107,8 +107,7 @@ body {
   font-size: 30px;
 }
 
-button,
-input {
+button {
   position: absolute;
   width: 200px;
   left: 50%;
@@ -150,9 +149,16 @@ i {
   top: 45px;
 }
 #score-goal {
+  position: absolute;
   top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #555;
   text-align: center;
+  font-family: "lato";
   font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
   width: 100px;
 }
 .btn-roll {
