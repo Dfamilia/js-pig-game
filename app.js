@@ -47,6 +47,7 @@ document.querySelector(".btn-roll").addEventListener("click", () => {
 
   // 3. If dice is equal to 6 twice, reset actualPlayer score
   if (row6twice === 2) {
+    scores[activePlayer] = 0;
     document.getElementById(`score-${activePlayer}`).textContent = 0;
     // Reset roundScore, reset currentPlayer roundScore, Next player
     nextPlayer();
