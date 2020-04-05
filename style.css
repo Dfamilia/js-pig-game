@@ -107,7 +107,8 @@ body {
   font-size: 30px;
 }
 
-button {
+button,
+input {
   position: absolute;
   width: 200px;
   left: 50%;
@@ -147,6 +148,12 @@ i {
 
 .btn-new {
   top: 45px;
+}
+#score-goal {
+  top: 90px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
 }
 .btn-roll {
   top: 403px;
